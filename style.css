@@ -1,0 +1,30 @@
+body {
+  font-family:"New time Romans, Helvetica, sans-serif";
+  font-weight:normal;
+  background-color:#c5daff;
+}
+
+.head {
+  border:1px solid black;
+  color:hsl(24.6 95% 53.1%);
+  font-size:64px;
+  font-style:italic;
+}
+
+.para {
+  font-size:30px;
+}
+
+.center {
+  text-align:center;
+}
+
+.button {
+    
+    background:RGB(252 231 239);
+    color:#c5daff;
+    font-size:15px;
+    
+}
+
+
