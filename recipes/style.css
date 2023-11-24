@@ -1,0 +1,68 @@
+* {
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family:"New time Romans, Helvetica, sans-serif";
+    font-weight:normal;
+    background-color: #E5D2C4; 
+}
+
+.recipe {
+    background-color: #F5EDE7;
+    width: 1400px;
+    margin: 20px auto;
+    border: 2px solid darkred;
+    padding: 25px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+}
+
+.image {
+    display:block;  
+    margin:auto;
+    height:auto;
+    width:auto;
+}
+
+.head {
+    border:1px solid black;
+    background-color:hsl(24.6 95% 53.1%);
+    color: #fff; 
+    font-size:45px;
+    font-style:italic;
+    padding: 10px;
+}
+
+
+
+.font {
+    font-size:20px;
+    
+}
+
+.center {
+    text-align:center;
+    margin-left: -27px;
+}
+
+.color {
+  background-color: #fc9400;
+  color: #fff;
+  margin:20px;
+  padding: 10px 12px;
+  border:2px solid black;
+}
+
+#homepage {
+    background-color: #a9444e;
+    color: #fff;
+    margin:255px;
+    padding: 10px 12px;
+    border:2px solid black;
+
+}
+
