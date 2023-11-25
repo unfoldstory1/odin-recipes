@@ -1,11 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  line-height: 1.5;
+  
+}
+
+
 body {
   font-family:"New time Romans, Helvetica, sans-serif";
   font-weight:normal;
   background-color:#c5daff;
 }
 
+
+.container {
+  padding:30px;
+  border:2px solid darkred;
+  display:inline-block;
+  margin-left:180px;
+  background-color:#FFFAFA;
+}
+
+
 .head {
-  border:1px solid black;
+  border:1px dotted black;
+  margin:10px 8px;
   color:hsl(24.6 95% 53.1%);
   font-size:64px;
   font-style:italic;
@@ -13,6 +34,8 @@ body {
 
 .para {
   font-size:30px;
+  padding:15px;
+  
 }
 
 .center {
@@ -24,7 +47,41 @@ body {
     background:RGB(252 231 239);
     color:#c5daff;
     font-size:15px;
+    border:2px solid black;
+    padding:4px;
+    margin:14px;
     
 }
+.food {
+  height:240px;
+  width: 320px;
+}
 
+.list-center {
+  text-align:center;
+}
 
+.border {
+  border:2px solid black;
+
+}
+
+.view-recipe {
+  background-color: #fc9400;
+  border:1px solid black;
+  color: #FFF;
+  margin: 100px;
+  padding:10px 12px 10px 12px;
+}
+
+.recipe-title {
+  text-align:center;
+  background-color: #fc9400;
+  border:2px solid black;
+  color: #FFF;
+  padding:5px 8px 5px 8px;
+  margin: 14px;
+   
+  
+  
+}
